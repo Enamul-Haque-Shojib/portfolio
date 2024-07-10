@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-border: 1px solid red;
+
     max-width: 80%;
     margin: 0 auto;
 }
@@ -80,8 +80,8 @@ border: 1px solid red;
 }
 .why-web-deveopment-content{
     background-color: rgba(13, 19, 33, 0.02);
-    /* max-width: 1140px;
-    height: 1395px; */
+    
+    height: 1395px; 
     margin: 0 auto;
     margin-top: 74px;
     display: flex;
@@ -190,7 +190,78 @@ margin-top: 88px;
 .flex-card a{
     font-size: 16px;
     font-weight: 700;
+}
+
+.i-need-support-content{
+    margin-top:100px;
+}
+.i-need-support-form{
     
+    background-image: url('./assets/handshake.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 20px;
+}
+.i-need-support-form h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+}
+.i-need-support-form p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 24px;
+}
+.i-need-support-form input{
+    width: 548px;
+    height: 53px;
+    border-radius: 10px;
     
+}
+.i-need-support-form input::placeholder{
+    font-size: 20px;
+    padding: 20px;
+}
+.i-need-support-form button{
+    width: 120px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 79px;
+    height: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    
+   
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-social-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 157px;
 }
 
